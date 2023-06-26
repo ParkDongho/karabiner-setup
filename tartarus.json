@@ -1,0 +1,25 @@
+{
+  "title": "tartarus",
+  "rules": [
+    {
+      "description": "Space -> Ctrl + UP",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "spacebar"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "up_arrow",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
